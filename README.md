@@ -3,6 +3,12 @@ Nginx image for magento1
 
 Nginx container for magento1 applications. Magento is not installed in the Image.
 
+Document Root
+-------------
+
+The required document root for magneto is set to `<your magento project>`. This
+is de standard setup for magento1.
+
 Environment variables
 ---------------------
 
