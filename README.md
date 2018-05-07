@@ -31,7 +31,7 @@ additional configuration for a maintenance page. Or you could set
 `client_max_body_size`, ...
 
 ~~~ sh
-$ docker run -v /path/to/overrides.conf:/etc/nginx/include/overrides.conf dockerwest/nginx-magento:<version>
+$ docker run -v /path/to/overrides.conf:/etc/nginx/include/overrides.conf dockerwest/nginx-magento1:<version>
 ~~~
 
 Versions

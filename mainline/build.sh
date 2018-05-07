@@ -1,4 +1,4 @@
 #!/bin/sh
 docker pull nginx:mainline-alpine
 
-docker build --no-cache -t dockerwest/nginx-magento:mainline .
+docker build --no-cache -t dockerwest/nginx-magento1:mainline .
